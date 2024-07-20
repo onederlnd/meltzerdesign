@@ -59,15 +59,18 @@
     font-family: var(--tp-ff-body);
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     font-family: var(--tp-ff-heading);
 }
-a {
+footer a {
     color: var(--tp-common-primary);
     text-decoration: none;
+    font-family: var(--tp-ff-heading);
+    font-size: 32px;
     
     &:hover {
         color: var(--tp-common-primary);
+        text-decoration: none;
     }
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -82,4 +85,3 @@ a {
         text-decoration:underline;
     }
 }
-
