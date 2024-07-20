@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Bondie";
+    src: url("../fonts/Bondie-Regular.otf") format("opentype");
+}
+
+:root {
+    /**
+    @font family declaration
+    */
+    --tp-ff-body: 'open sans', serif;
+    --tp-ff-heading: 'Bondie Regular', serif;
+    --tp-ff-p: 'Bondie Regular', serif;;
+    --tp-ff-fontawesome: "Font Awesome 5 Pro";
+    /*
+    @color declaration
+    */
+    --tp-common-white: #ffffff;
+    --tp-common-black: #070707;
+    --tp-common-dark: #0b0b0b;
+    --tp-common-primary: #d4a27e;
+    --tp-common-primary-2: #ecae82;
+    --tp-heading-primary: #070707;
+    --tp-theme-nav-text-dark: orange;
+    --tp-theme-nav-text-light: red;
+    --tp-theme-nav-bg-dark: black;
+    --tp-theme-nav-bg-light: 
+    white;
+    --tp-grey-1: #414042;
+    --tp-grey-2: #6d6e71;
+    --tp-text-body: #000;
+    --tp-text-1: #000;
+    --tp-theme-bg: #f8fcfc;
+    --tp-theme-bg-2: #f6f6f6;
+    --tp-theme-bg-3: #f8fbff;
+    --tp-theme-bg-4: #d3dbdf;
+    --tp-theme-bg-5: #eef4f7;
+    --tp-theme-bg-6: #f7f7f7;
+    --tp-theme-bg-7: #f2f5f7;
+    --tp-theme-bg-8: #e5eaee;
+    --tp-theme-bg-9: #ecf8ff;
+    --tp-border-1: #e6e6e6;
+    --tp-border-2: #dce9e9;
+    --tp-border-3: #ececec;
+    --tp-border-4: #efefef;
+    --tp-border-5: #f0f0f0;
+    --tp-border-6: #f3f3f3;
+    --tp-border-7: #e4e4e4;
+    --tp-border-8: #ededed;
+    --tp-border-9: #f0f0f0;
+    --tp-border-10: #1c1c1c;
+    --tp-border-11: #ebebeb;
+    --tp-border-12: #e7e7e7;
+
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--tp-common-primary);
+    font-size: 24px;
+    display: block;
+    padding-left: 20px
+
+    &:hover {
+        color: var(--tp-common-primary-2);
+    }
+}
