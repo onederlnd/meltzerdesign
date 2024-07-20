@@ -1,15 +1,10 @@
-@font-face {
-    font-family: "Bondie";
-    src: url("../fonts/Bondie-Regular.otf") format("opentype");
-}
-
 :root {
     /**
     @font family declaration
     */
-    --tp-ff-body: 'open sans', serif;
-    --tp-ff-heading: 'Bondie Regular', serif;
-    --tp-ff-p: 'Bondie Regular', serif;;
+    --tp-ff-body: 'OpenSans', sans-serif;
+    --tp-ff-heading: 'Bondie Regular', sans-serif;
+    --tp-ff-p: 'Bondie Regular', sans-serif;
     --tp-ff-fontawesome: "Font Awesome 5 Pro";
     /*
     @color declaration
@@ -23,8 +18,7 @@
     --tp-theme-nav-text-dark: orange;
     --tp-theme-nav-text-light: red;
     --tp-theme-nav-bg-dark: black;
-    --tp-theme-nav-bg-light: 
-    white;
+    --tp-theme-nav-bg-light:white;
     --tp-grey-1: #414042;
     --tp-grey-2: #6d6e71;
     --tp-text-body: #000;
@@ -53,17 +47,27 @@
 
   }
 
+@font-face {
+    font-family: "Bondie Regular";
+    src: url("../fonts/Bondie-Regular.otf") format("opentype");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--tp-ff-body);
 }
 
+h1 {
+    font-family: var(--tp-ff-heading);
+}
 .navbar-dark .navbar-nav .nav-link {
     color: var(--tp-common-primary);
-    font-size: 24px;
+    font-size: 36px;
+    font-family: var(--tp-ff-heading);
     display: block;
-    padding-left: 20px
+    padding-left: 20px;
 
     &:hover {
         color: var(--tp-common-primary-2);
