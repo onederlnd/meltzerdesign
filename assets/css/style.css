@@ -13,9 +13,9 @@
     --tp-common-black: #070707;
     --tp-common-dark: #0b0b0b;
     --tp-common-primary: #d4a27e;
-    --tp-common-primary-2: #ecae82;
     --tp-heading-primary: #070707;
-    --tp-theme-nav-text-dark: orange;
+    --tp-theme-nav-text-dark: #d4a27e;
+    --tp-theme-nav-text-dark-hover: #ddb19d;
     --tp-theme-nav-text-light: red;
     --tp-theme-nav-bg-dark: black;
     --tp-theme-nav-bg-light:white;
@@ -59,8 +59,16 @@
     font-family: var(--tp-ff-body);
 }
 
-h1 {
+h1, h2, h3, h4, h5{
     font-family: var(--tp-ff-heading);
+}
+a {
+    color: var(--tp-common-primary);
+    text-decoration: none;
+    
+    &:hover {
+        color: var(--tp-common-primary);
+    }
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--tp-common-primary);
@@ -70,6 +78,8 @@ h1 {
     padding-left: 20px;
 
     &:hover {
-        color: var(--tp-common-primary-2);
+        color: var(--tp-theme-nav-text-dark-hover);
+        text-decoration:underline;
     }
 }
+
