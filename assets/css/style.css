@@ -105,6 +105,10 @@
     font-family: var(--tp-ff-body);
 }
 
+main {
+    background-color: rgb(182, 215, 228);
+}
+
 h1, h2, h3, h4, h5 {
     font-family: var(--tp-ff-heading);
 }
@@ -132,11 +136,7 @@ footer a {
         text-decoration: underline;
     }
 }
-.nav-pad {
-    padding-left: 250px;
-}
 
-    
 @media (max-width: 480px) {
 .nav-pad { padding-left: 0}
  }

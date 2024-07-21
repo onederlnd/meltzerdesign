@@ -32,6 +32,20 @@
             crossorigin="anonymous"
         />
         <!-- Required Javascript -->
+         <script>
+          $(document).ready(function() {
+$('a.right-arrow').click(function() {
+       $('section').animate({
+       marginLeft: "+=920"
+       }, "medium");
+       });
+       $('a.left-arrow').click(function() {
+       $('section').animate({
+       marginLeft: "-=920"
+       }, "medium");
+       });
+});
+         </script>
         <script>
 // Initialization for ES Users
 import { Collapse, initMDB } from "mdb-ui-kit";
@@ -61,16 +75,16 @@ initMDB({ Collapse });
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Branding</a>
+                        <a class="nav-link" href="#a_brand">Branding</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Print</a>
+                        <a class="nav-link" href="#a_print">Print</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Book Design</a>
+                        <a class="nav-link" href="#a_book">Book Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Signage</a>
+                        <a class="nav-link" href="#a_signage">Signage</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -82,62 +96,68 @@ initMDB({ Collapse });
             </div>            
         </header>
         <main>
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-5 py-5">
-              <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-center">STRATEGIC + EFFECTIVE</h1>
+          <div class="container-fluid col-xxl-8 px-4 py-3">
+            <div class="row align-items-center g-5 py-3">
+              <div class="col-lg-6 text-center align-items-center">
+                <h1 class="display-5 fw-bold lh-1 mb-3">STRATEGIC + EFFECTIVE</h1>
                 <div class="container">
                   <div class="vertical-line">&nbsp;</div>
                 </div>
                 <img src="./assets/img/brand/vert_pipe.png" /><br /><br />
                 <img src="./assets/img/logo/meltzerdesign_logo_rev.png" class="img-fluid"/><br />
                 <img src="./assets/img/brand/vert_pipe.png" /><br />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante sapien, pharetra in interdum non, rutrum at mauris. Sed id orci semper, imperdiet erat eu, vestibulum velit. Curabitur sed vehicula lacus, tincidunt ultricies elit. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium tortor id ante tincidunt, id laoreet ipsum suscipit. Suspendisse potenti. Sed iaculis diam nulla, sed congue sem tempus sit amet. Fusce sodales tempus neque, vel faucibus ipsum iaculis vel. Ut et lobortis purus.</p>
+                  <h2 class="text-center">Good Design is Good Business.</h2>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                  >
+                    Book A Call
+                  </button>
+                  
               </div>
               <div class="col-10 col-sm-8 col-lg-6">
                 <img src="./assets/img/about/mm_headshot.jpg" class="d-block mx-lg-auto mx-sm-auto img-fluid rounded" alt="Marla Meltzer smiling - headshot" loading="lazy">
               </div>
             </div>
-            <div class="contaier">
-              <h2>Brand</h2>
-              <div class="row">
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-              </div>
+          </div>
+          <div class="container col-xxl-8 px-4 py-5 pt-5">
+            <h2 id="a_brand">Brand</h2>
+            <span><a href="#">See all ></a></span>
+            <div class="row">
+              <div class="col"><img src="./assets/img/portfolio/port-brand-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-brand-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-brand-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-brand-1.png"></div>
             </div>
-            <div class="contaier">
-              <h2>Print</h2>
-              <div class="row">
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-              </div>
+            
+            <h2 class="pt-4" id="a_print">Print</h2>
+            <span><a href="#">See all ></a></span>
+            <div class="row">
+              <div class="col"><img src="./assets/img/portfolio/port-print-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-print-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-print-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-print-1.png"></div>
             </div>
-            <div class="contaier">
-              <h2>Book Design</h2>
-              <div class="row">
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
-              </div>
+            
+            <h2 class="pt-4" id="a_book">Book Design</h2>
+            <span><a href="#">See all ></a></span>
+            <div class="row">
+              <div class="col"><img src="./assets/img/portfolio/port-book-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-book-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-book-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-book-1.png"></div>
             </div>
-            <div class="contaier">
-              <h2>Signage</h2>
-              <div class="row">
-                <div class="col"><img src=""></div>
-                <div class="col"><img src=""></div>
-                <div class="col"><img src=""></div>
-                <div class="col"><img src=""></div>
-                <div class="col"><img src=""></div>
-              </div>
+
+            <h2 class="pt-4" id="a_signage">Signage</h2>
+            <span><a href="#">See all ></a></span>
+            <div class="row">
+              <div class="col"><img src="./assets/img/portfolio/port-signage-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-signage-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-signage-1.png"></div>
+              <div class="col"><img src="./assets/img/portfolio/port-signage-1.png"></div>
             </div>
+
           </div>
         </main>
         <footer class="mt-20">
@@ -146,7 +166,10 @@ initMDB({ Collapse });
               <div class="container col-xxl-8">
                 <div class="row text-center g-5">
                   <div class="col-lg-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium tortor id ante tincidunt, id laoreet ipsum suscipit. Suspendisse potenti. Sed iaculis diam nulla, sed congue sem tempus sit amet. Fusce sodales tempus neque, vel faucibus ipsum iaculis vel. Ut et lobortis purus.</p>
+                    <p class="px-2">Marla Meltzer is a graphic designer partnering
+                      with businesses and organizations to develop
+                      strategic, powerful, and effective communication
+                      and visual identities.</p>
                     <p><a href="mailto:marla@meltzerdesign.com" class="link">marla@meltzerdesign.com</a> <span style="font-family:Bondie">&#8226;</span> <a href="tel:2485434879"  class="link">(248) 543-4879</a></p>
                     
                   </div>
