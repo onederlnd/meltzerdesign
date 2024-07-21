@@ -42,10 +42,11 @@ initMDB({ Collapse });
 
     <body>
         <header>
+          
             <!-- place navbar here -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand pl-lgs-150 pr-lg-100" href="#"><img src="./assets/img/logo/meltzerdesign_logo.png"></a>
+                  <a class="navbar-brand pl-lg-4 pr-lg-4" href="#"><img src="./assets/img/logo/meltzerdesign_logo.png"></a>
                   <button
                     data-mdb-collapse-init
                     class="navbar-toggler"
@@ -66,10 +67,10 @@ initMDB({ Collapse });
                         <a class="nav-link" href="#">Print</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Website Design</a>
+                        <a class="nav-link" href="#">Book Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Signage</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -85,18 +86,61 @@ initMDB({ Collapse });
             <div class="row align-items-center g-5 py-5">
               <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-3 text-center">STRATEGIC + EFFECTIVE</h1>
-                <img src="./assets/img/brand/vert_pipe.png" /><br />
+                <div class="container">
+                  <div class="vertical-line">&nbsp;</div>
+                </div>
+                <img src="./assets/img/brand/vert_pipe.png" /><br /><br />
                 <img src="./assets/img/logo/meltzerdesign_logo_rev.png" class="img-fluid"/><br />
                 <img src="./assets/img/brand/vert_pipe.png" /><br />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante sapien, pharetra in interdum non, rutrum at mauris. Sed id orci semper, imperdiet erat eu, vestibulum velit. Curabitur sed vehicula lacus, tincidunt ultricies elit. </p>
               </div>
               <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/img/about/mm_headshot.jpg" class="d-block mx-lg-auto mx-sm-auto img-fluid" alt="Marla Meltzer smiling - headshot" loading="lazy">
+                <img src="./assets/img/about/mm_headshot.jpg" class="d-block mx-lg-auto mx-sm-auto img-fluid rounded" alt="Marla Meltzer smiling - headshot" loading="lazy">
+              </div>
+            </div>
+            <div class="contaier">
+              <h2>Brand</h2>
+              <div class="row">
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+              </div>
+            </div>
+            <div class="contaier">
+              <h2>Print</h2>
+              <div class="row">
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+              </div>
+            </div>
+            <div class="contaier">
+              <h2>Book Design</h2>
+              <div class="row">
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+              </div>
+            </div>
+            <div class="contaier">
+              <h2>Signage</h2>
+              <div class="row">
+                <div class="col"><img src=""></div>
+                <div class="col"><img src=""></div>
+                <div class="col"><img src=""></div>
+                <div class="col"><img src=""></div>
+                <div class="col"><img src=""></div>
               </div>
             </div>
           </div>
         </main>
-        <footer>
+        <footer class="mt-20">
             <!-- place footer here -->
             <div class="container-fluid bg-dark text-white pb-3">
               <div class="container col-xxl-8">
@@ -110,7 +154,20 @@ initMDB({ Collapse });
                     <h2>SIGN UP FOR MY NEWSLETTER</h2>
                     <p>
                       <div class="mb-3">
-                        adsfafs
+                        <div class="d-flex justify-content-center">
+                          <div class="input-group w-auto">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Your Email"
+                                aria-label="Enter Your Email"
+                                aria-describedby="button-addon1"
+                              />
+                              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" type="button" id="button-addon1" data-mdb-ripple-color="dark">
+                                  Sign Up
+                              </button>
+                          </div>
+                      </div>
                       </div>
                       
                     </p>

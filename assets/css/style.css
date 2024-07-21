@@ -47,6 +47,52 @@
 
   }
 
+  /*Margin and Padding helpers*/
+/*xs*/
+.p-xs { padding: .25em; }
+.p-x-xs { padding: 0 .25em; }
+.p-y-xs { padding: .25em 0 ; }
+.p-t-xs { padding-top: .25em; }
+.p-r-xs { padding-right: .25em; }
+.p-b-xs { padding-bottom: .25em; }
+.p-l-xs { padding-left: .25em; }
+.m-xs { margin: .25em; }
+.m-x-xs { margin: 0 .25em; }
+.m-y-xs { margin: .25em 0 ; }
+.m-r-xs { margin-right: .25em; }
+.m-l-xs { margin-left: .25em; }
+.m-t-xs { margin-top: .25em; }
+.m-b-xs { margin-bottom: .25em; }
+/*sm*/
+@media (min-width:768px){
+/*sm*/
+    .p-sm { padding: .5em; }
+    .p-x-sm { padding: 0 .5em; }
+    .p-y-sm { padding: .5em 0 ; }
+    .p-t-sm { padding-top: .5em; }
+    .p-r-sm { padding-right: .5em; }
+    .p-b-sm { padding-bottom: .5em; }
+    .p-l-sm { padding-left: .5em; }
+    .m-sm { margin: .5em; }
+    .m-x-sm { margin: 0 .5em; }
+    .m-y-sm { margin: .5em 0 ; }
+    .m-t-sm { margin-top: .5em; }
+    .m-r-sm { margin-right: .5em; }
+    .m-b-sm { margin-bottom: .5em; }
+    .m-l-sm { margin-left: .5em; }
+}
+
+/*md*/
+@media (min-width: 992px){
+
+}
+
+/*lg*/
+@media (min-width: 1200px){
+.pl-lg-4 { padding-left: 4em; }
+.pr-lg-4 { padding-right: 4em;}
+}
+
 @font-face {
     font-family: "Bondie Regular";
     src: url("../fonts/Bondie-Regular.otf") format("opentype");
@@ -73,6 +119,7 @@ footer a {
         text-decoration: none;
     }
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: var(--tp-common-primary);
     font-size: 36px;
@@ -82,6 +129,14 @@ footer a {
 
     &:hover {
         color: var(--tp-theme-nav-text-dark-hover);
-        text-decoration:underline;
+        text-decoration: underline;
     }
 }
+.nav-pad {
+    padding-left: 250px;
+}
+
+    
+@media (max-width: 480px) {
+.nav-pad { padding-left: 0}
+ }
