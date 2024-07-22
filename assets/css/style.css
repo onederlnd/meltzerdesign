@@ -112,6 +112,15 @@ main {
 h1, h2, h3, h4, h5 {
     font-family: var(--tp-ff-heading);
 }
+
+h1 {
+
+}
+
+h2 {
+
+}
+
 footer a {
     color: var(--tp-common-primary);
     text-decoration: none;
@@ -123,7 +132,12 @@ footer a {
         text-decoration: none;
     }
 }
-
+.h1-secondary {
+    line-height: 1;
+    font-size: 34px;
+    font-family: var(--tp-ff-heading);
+    font-weight: 700 !important;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: var(--tp-common-primary);
     font-size: 36px;
@@ -138,5 +152,8 @@ footer a {
 }
 
 @media (max-width: 480px) {
-.nav-pad { padding-left: 0}
- }
+
+}
+
+.portfolio-featured {
+}
