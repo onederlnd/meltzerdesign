@@ -113,14 +113,6 @@ h1, h2, h3, h4, h5 {
     font-family: var(--tp-ff-heading);
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
 footer a {
     color: var(--tp-common-primary);
     text-decoration: none;
@@ -149,11 +141,17 @@ footer a {
         color: var(--tp-theme-nav-text-dark-hover);
         text-decoration: underline;
     }
-}
-
-@media (max-width: 480px) {
 
 }
 
-.portfolio-featured {
+@media only screen and (max-width: 600px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 26px;
+    }
+    .navbar-dark .navbar {
+        align-items: center;
+    }
+}
+.featured:hover {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
