@@ -97,7 +97,8 @@
       </nav>
     </header>
     <main>
-      <div class="container-fluid col-xxl-8 px-4 py-5">
+      <div class="container-fluid col-xxl-8 px-4 py-5" id="hero">
+        <!-- NOTE:ADJUST MARLA'S FACE TO BE BACKGROUND INSTEAD OF STANDALONE PHOTO -->
         <div class="row align-items-center g-5 py-5 pb-sm-0">
           <div class="col-lg-6 col-md-6 text-center align-items-center">
             <h1 class="display-5 fw-bold lh-1 mb-3">STRATEGIC + EFFECTIVE</h1>
@@ -134,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid bg-light col-xxl-12 col-lg-12 col-md-10 px-5 py-5 pt-5">
+      <div class="container-fluid bg-light col-xxl-12 col-lg-12 col-md-12 px-5 py-5 pt-5">
         <div class="display-5 display-sm-1 h1-secondary text-center">Featured Work</div>
         <div class="mx-auto col-xxl-8 col-md-12 portfolio">
           <h2 class="pt-4 display-4" id="a_brand">Brand</h2>
@@ -481,8 +482,8 @@
     >
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title fs-5" id="ContactFormLabel">Contact Me!</h2>
+          <div class="modal-header border-0">
+            <h2 class="modal-title fs-5" id="ContactFormLabel" >Contact Me!</h2>
             <button
               type="button"
               class="btn-close"
@@ -490,11 +491,12 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body col-10">
+          <div class="modal-body form-group col-12 px-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam illum impedit eligendi dolor voluptatibus, quia sint accusantium, modi fugiat ut consequatur molestias, velit quibusdam ea in eum ipsam sequi praesentium!</p>
+
             <form action="./assets/mail.php" method="post">
-                <div class="col-md-12">
+                <div class="col-md-6 col-lg-6 col-sm-12">
                   <div class="input-item">
-                    <span><i class="fas fa-user"></i></span>
                     <input
                       type="text"
                       name="first_name"
@@ -503,9 +505,8 @@
                     />
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-6 col-lg-6 col-sm-12">
                   <div class="input-item">
-                    <span><i class="fas fa-user"></i></span>
                     <input
                       type="text"
                       name="last_name"
@@ -516,7 +517,6 @@
                 </div>
                 <div class="col-lg-12">
                   <div class="input-item">
-                    <span><i class="fas fa-building"></i></span>
                     <input
                       type="text"
                       name="company"
@@ -526,7 +526,6 @@
                 </div>
                 <div class="col-lg-12">
                   <div class="input-item">
-                    <span><i class="fas fa-envelope-open"></i></span>
                     <input
                       type="text"
                       name="email"
@@ -537,7 +536,6 @@
                 </div>
                 <div class="col-12">
                   <div class="input-item-textarea">
-                    <span><i class="fas fa-pen"></i></span>
                     <textarea
                       name="message"
                       placeholder="Let us know what you're looking for"
@@ -546,7 +544,7 @@
                   </div>
                 </div>
               </div>
-              <div class="modal-footer">
+              <div class="modal-footer border-0">
                 <button
                   type="button"
                   class="btn btn-secondary"
