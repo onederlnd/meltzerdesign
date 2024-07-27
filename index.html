@@ -27,33 +27,14 @@
       crossorigin="anonymous"
     />
     <!-- Required Javascript -->
-    <script>
-      $(document).ready(function () {
-        $("a.right-arrow").click(function () {
-          $("section").animate(
-            {
-              marginLeft: "+=920",
-            },
-            "medium"
-          );
-        });
-        $("a.left-arrow").click(function () {
-          $("section").animate(
-            {
-              marginLeft: "-=920",
-            },
-            "medium"
-          );
-        });
-      });
-    </script>
+
   </head>
 
   <body>
     <header>
       <!-- place navbar here -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container-fluid pl-md-5">
           <a class="navbar-brand pl-lg-4 pr-lg-4" href="./"
             ><img src="./assets/img/logo/meltzerdesign_logo.png"
           /></a>
@@ -97,8 +78,7 @@
       </nav>
     </header>
     <main>
-      <div class="container-fluid col-xxl-8 px-4 py-5" id="hero">
-        <!-- NOTE:ADJUST MARLA'S FACE TO BE BACKGROUND INSTEAD OF STANDALONE PHOTO -->
+      <div class="container-fluid col-xxl-8 px-4 py-5 hero">
         <div class="row align-items-center g-5 py-5 pb-sm-0">
           <div class="col-lg-6 col-md-6 text-center align-items-center">
             <h1 class="display-5 fw-bold lh-1 mb-3">STRATEGIC + EFFECTIVE</h1>
@@ -135,14 +115,14 @@
           </div>
         </div>
       </div>
+      <section>
       <div class="container-fluid bg-light col-xxl-12 col-lg-12 col-md-12 px-5 py-5 pt-5">
         <div class="display-5 display-sm-1 h1-secondary text-center">Featured Work</div>
         <div class="mx-auto col-xxl-8 col-md-12 portfolio">
           <h2 class="pt-4 display-4" id="a_brand">Brand</h2>
           <div class="row card-group col-md-12">
             <div
-              class="card border-0 bg-transparent featured pt-3"
-              
+              class="card border-0 bg-transparent featured pt-3" 
             >
               <img
                 src="./assets/img/portfolio/port-brand-1_thumb.jpg"
@@ -155,7 +135,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/port-brand-1.jpg" class="stretched-link "></a>
               </div>
             </div>
             <div
@@ -172,7 +152,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/port-brand-2.jpg" class="stretched-link glightbox"></a>
               </div>
             </div>
             <div
@@ -392,6 +372,8 @@
           </div>
         </div>
       </div>
+      </section>
+      <section>
       <div class="container col-xxl-12 col-lg-12 px-5 py-5 pt-5">
         <h2 class="text-center h1-secondary display-5">A Little About Me</h2>
         <div class="row px-7 py-7">
@@ -414,6 +396,7 @@
           </div>
         </div>
       </div>
+      </section>
     </main>
     <footer class="mt-5">
       <!-- place footer here -->
@@ -468,9 +451,8 @@
         Copyright &copy; 2024 MeltzerDesign.com
       </div>
     </footer>
-    <!-- Button trigger modal -->
 
-    <!-- Modal -->
+    <!-- Contact Modal -->
     <div
       class="modal fade"
       id="contactForm"
@@ -482,8 +464,8 @@
     >
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-          <div class="modal-header border-0">
-            <h2 class="modal-title fs-5" id="ContactFormLabel" >Contact Me!</h2>
+          <div class="modal-header border-0" style="background-color: var(--tp-theme-main-bg);">
+            <h2 class="modal-title fs-5" id="ContactFormLabel" style="font-size: 36px">Contact Me!</h2>
             <button
               type="button"
               class="btn-close"
@@ -492,11 +474,13 @@
             ></button>
           </div>
           <div class="modal-body form-group col-12 px-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam illum impedit eligendi dolor voluptatibus, quia sint accusantium, modi fugiat ut consequatur molestias, velit quibusdam ea in eum ipsam sequi praesentium!</p>
+            <p>Ready to learn more? Let me know what you're looking for!</p>
 
             <form action="./assets/mail.php" method="post">
-                <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="row g-3">
+                <div class="col-md-6">
                   <div class="input-item">
+
                     <input
                       type="text"
                       name="first_name"
@@ -505,7 +489,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="col-md-6">
                   <div class="input-item">
                     <input
                       type="text"
@@ -515,6 +499,7 @@
                     />
                   </div>
                 </div>
+                </form>
                 <div class="col-lg-12">
                   <div class="input-item">
                     <input
@@ -569,7 +554,7 @@
     ></script>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      src="./assets/js/bootstrap.bundle.min.js"
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
