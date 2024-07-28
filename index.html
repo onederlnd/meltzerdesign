@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
+    href="https://assets.calendly.com/assets/external/widget.css"
+    rel="stylesheet"
+  />
+      <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -33,7 +37,7 @@
   <body>
     <header>
       <!-- place navbar here -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid pl-md-5">
           <a class="navbar-brand pl-lg-4 pr-lg-4" href="./"
             ><img src="./assets/img/logo/meltzerdesign_logo.png"
@@ -50,7 +54,7 @@
             <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse navbar-expand" id="navbarNav">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav ">
               <li class="nav-item">
                 <a class="nav-link" href="brand.html">Branding</a>
               </li>
@@ -77,7 +81,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="pt-5">
       <div class="container-fluid col-xxl-8 px-4 py-5 hero">
         <div class="row align-items-center g-5 py-5 pb-sm-0">
           <div class="col-lg-6 col-md-6 text-center align-items-center">
@@ -97,13 +101,14 @@
               business.
             </p>
             <h2 class="text-center">Good Design = Good Business</h2>
-            <button
+            <div class="d-grid gap-2 bookacall col-md-8 mx-auto"><button
               type="button"
-              class="btn btn-primary"
-              onclick="Calendly.initPopupWidget({url:'https://calendly.com/rchristenhusz-brandnut/30min'});return false;"
+              class="btn"
+              onclick="Calendly.initPopupWidget({url:'https://calendly.com/marla-meltzerdesign/30min'});return false;"
             >
               Book A Call
             </button>
+          </div>
           </div>
           <div class="col-sm-12 col-lg-6 col-md-6">
             <img
@@ -124,8 +129,8 @@
             <div
               class="card border-0 bg-transparent featured pt-3" 
             >
-              <img
-                src="./assets/img/portfolio/port-brand-1_thumb.jpg"
+            <img
+                src="./assets/img/portfolio/featured/port-brand-1_thumb.jpg?image=101"
                 class="card-img-top rounded"
                 loading="lazy"
               />
@@ -135,14 +140,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="./assets/img/portfolio/port-brand-1.jpg" class="stretched-link "></a>
+                <a href="./assets/img/portfolio/featured/port-brand-1.jpg?image=101" class="stretched-link" data-toggle="lightbox" data-gallery="feat-brand-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-brand-2_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-brand-2_thumb.jpg?image=102"
                 class="rounded"
                 loading="lazy"
               />
@@ -152,14 +157,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="./assets/img/portfolio/port-brand-2.jpg" class="stretched-link glightbox"></a>
+                <a href="./assets/img/portfolio/featured/port-brand-2.jpg?image=102" class="stretched-link" data-toggle="lightbox" data-gallery="feat-brand-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-brand-3_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-brand-3_thumb.jpg?image=103"
                 class="rounded"
                 loading="lazy"
               />
@@ -169,14 +174,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-brand-3.jpg?image=103" class="stretched-link" data-toggle="lightbox" data-gallery="feat-brand-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent my-auto"
             >
               <img
-                src="./assets/img/portfolio/port-brand-showall_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-brand-showall_thumb.jpg"
                 class="rounded"
                 loading="lazy"
               />
@@ -190,7 +195,7 @@
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-print-1_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-print-1_thumb.jpg?image=201"
                 class="card-img-top rounded"
                 loading="lazy"
               />
@@ -200,14 +205,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-print-1.jpg?image=201" class="stretched-link" data-toggle="lightbox" data-gallery="feat-print-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3 col-md-3"
             >
               <img
-                src="./assets/img/portfolio/port-print-2_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-print-2_thumb.jpg?image=202"
                 class="rounded"
                 loading="lazy"
               />
@@ -217,14 +222,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-print-2.jpg?image=202" class="stretched-link" data-toggle="lightbox" data-gallery="feat-print-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-print-3_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-print-3_thumb.jpg?image=203"
                 class="rounded"
               />
               <div class="card-body">
@@ -233,14 +238,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-print-3.jpg?image=203" class="stretched-link" data-toggle="lightbox" data-gallery="feat-print-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent my-auto"
             >
               <img
-                src="./assets/img/portfolio/port-print-showall_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-print-showall_thumb.jpg"
                 class="rounded"
                 loading="lazy"
               />
@@ -254,7 +259,7 @@
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-book-1_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-book-1_thumb.jpg?image=301"
                 class="card-img-top rounded"
               />
               <div class="card-body">
@@ -263,14 +268,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-book-1.jpg?image=301" class="stretched-link" data-toggle="lightbox" data-gallery="feat-book-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-book-2_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-book-2_thumb.jpg?image=302"
                 class="rounded"
                 loading="lazy"
               />
@@ -280,14 +285,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-book-2.jpg?image=302" class="stretched-link" data-toggle="lightbox" data-gallery="feat-book-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-book-3_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-book-3_thumb.jpg?image=303"
                 class="rounded"
               />
               <div class="card-body">
@@ -296,14 +301,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-book-3.jpg?image=303" class="stretched-link" data-toggle="lightbox" data-gallery="feat-book-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent my-auto"
             >
               <img
-                src="./assets/img/portfolio/port-book-showall_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-book-showall_thumb.jpg"
                 class="rounded"
               />
               <a href="book.html" class="stretched-link"></a>
@@ -316,7 +321,7 @@
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-signage-1_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-signage-1_thumb.jpg?image=401"
                 class="card-img-top rounded"
               />
               <div class="card-body">
@@ -325,14 +330,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-signage-1.jpg?image=401" class="stretched-link" data-toggle="lightbox" data-gallery="feat-signage-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-signage-2_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-signage-2_thumb.jpg?image=402"
                 class="rounded"
               />
               <div class="card-body">
@@ -341,14 +346,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-signage-2.jpg?image=402" class="stretched-link" data-toggle="lightbox" data-gallery="feat-signage-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent featured pt-3"
             >
               <img
-                src="./assets/img/portfolio/port-signage-3_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-signage-3_thumb.jpg?image=403"
                 class="rounded"
               />
               <div class="card-body">
@@ -357,14 +362,14 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus at laoreet diam.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="./assets/img/portfolio/featured/port-signage-3.jpg?image=403" class="stretched-link" data-toggle="lightbox" data-gallery="feat-signage-gallery"></a>
               </div>
             </div>
             <div
               class="card border-0 bg-transparent my-auto"
             >
               <img
-                src="./assets/img/portfolio/port-signage-showall_thumb.jpg"
+                src="./assets/img/portfolio/featured/port-signage-showall_thumb.jpg"
                 class="rounded"
               />
               <a href="#" class="stretched-link"></a>
@@ -546,23 +551,8 @@
         </div>
       </div>
     </div>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="./assets/js/bootstrap.bundle.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Calendly badge widget begin -->
-    <link
-      href="https://assets.calendly.com/assets/external/widget.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js" integrity="sha256-zFbZ1Ykp6EzYM4IOMstebe2Gqoxz8ML85LP4JGcA+eA=" crossorigin="anonymous"></script>
     <script
       src="https://assets.calendly.com/assets/external/widget.js"
       type="text/javascript"
@@ -571,9 +561,9 @@
     <script type="text/javascript">
       window.onload = function () {
         Calendly.initBadgeWidget({
-          url: "https://calendly.com/rchristenhusz-brandnut/30min",
+          url: "https://calendly.com/marla-meltzerdesign/30min",
           text: "Book a Call",
-          color: "#e62727",
+          color: "#b03e3e",
           textColor: "#ffffff",
           branding: undefined,
         });
