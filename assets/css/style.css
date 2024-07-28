@@ -117,16 +117,15 @@ footer a {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--tp-common-primary);
-    font-size: 36px;
+    font-size: 40px;
     font-family: var(--tp-ff-heading);
     display: block;
-    padding-left: 20px;
+    padding-left: 30px;
 
     &:hover {
         color: var(--tp-theme-nav-text-dark-hover);
         text-decoration: underline;
     }
-
 }
 
 .featured:hover {
@@ -137,14 +136,23 @@ footer a {
   background-color: rgb(240, 232, 178);
   color:rgb(55,70,134);
   box-shadow: rgba(149, 157, 165, 0.9) 0px 8px 24px;
+  margin-top: 20px;
 
   &:hover {
-    border: #070707;
-    background-color:red;
+    background-color:rgb(176, 62, 62);
+    color: rgb(255,255,255);
   }
   &:active {
 
   }
+}
+
+.newsletter-signup button {
+    background-color: rgb(240,232,178);
+    
+    &:hover {
+        background-color:rgb(176, 62, 62)
+    }
 }
 
 form input {
