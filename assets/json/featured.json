@@ -1,0 +1,45 @@
+{ "featured": 
+    {
+        "brand": {
+            "101": {
+                "company": "Test Company",
+                "thumb_image": "port-brand-1.jpg",
+                "full_image": "port-brand-1.jpg",
+                "description": "this is a test description"
+            },
+            "102": {
+                "company": "Test Company",
+                "thumb_image": "port-brand-1.jpg",
+                "full_image": "port-brand-1.jpg",
+                "description": "this is a test description"
+            },
+            "103": {
+                "company": "Test Company",
+                "thumb_image": "port-brand-1.jpg",
+                "full_image": "port-brand-1.jpg",
+                "description": "this is a test description"
+            }
+        },
+        "book": {
+            "101": {
+                "code": "101",
+                "company": "Test Company",
+                "thumb_image": "port-brand-1.jpg",
+                "full_image": "port-brand-1.jpg",
+                "description": "this is a test description"
+            },
+            "102": {
+                "company": "Test Company",
+                "thumb_image": "port-brand-1.jpg",
+                "full_image": "port-brand-1.jpg",
+                "description": "this is a test description"
+            },
+            "103": {
+                "company": "Test Company",
+                "thumb_image": "port-brand-1.jpg",
+                "full_image": "port-brand-1.jpg",
+                "description": "this is a test description"
+            }
+        }
+    }
+}

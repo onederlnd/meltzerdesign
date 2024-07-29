@@ -1,10 +1,12 @@
-TODO:
-
-1 Center mobile navigation items
-2 Increase mobile font size for "GOOD DESIGN = GOOD BUSINESS"
-3 Change color scheme/design for "Book a Call" CTA
-4 Marla's face on mobile as background for hero block? Keep LG and MD as is.
-5 Lightbox for all featured items and project pages
-6 Update Book a Call details to match Marla's
-7 Update mail.php with Marla's details
-8 Finish Contact form.
+1. Fix/update contact form
+    - Submission not working
+    - Update mail.php with Marla's information
+    - Thank You page
+2. Update all graphics
+    - Featured "See More" image
+    - About Me graphic
+    - Implement all portfolio page graphics
+3. Newsletter
+    - Update submission form in footer
+4. Implementations
+    - JSON for all graphics

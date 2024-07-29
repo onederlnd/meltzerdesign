@@ -1,0 +1,10 @@
+{ "brand": 
+    {
+        "101": {
+            "company": "Test Company",
+            "thumb_image": "port-brand-1.jpg",
+            "full_image": "port-brand-1.jpg",
+            "description": "this is a test description"
+        }
+    }
+}
