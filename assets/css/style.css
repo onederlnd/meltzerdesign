@@ -155,8 +155,9 @@ footer a {
     }
 }
 
-form input {
+.contactForm form input {
     height: 45px;
+    background-color:red;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
@@ -165,19 +166,19 @@ form input {
     border-radius: 8px;
     margin-bottom: 5px;
 }
-form input::-webkit-input-placeholder {
+.contactForm form input::-webkit-input-placeholder {
     color: var(--tp-grey-1);
 }
-form input:-moz-placeholder {
+.contactForm form input:-moz-placeholder {
     color: var(--tp-grey-1);
 }
-form input::-moz-placeholder {
+.contactForm form input::-moz-placeholder {
     color: var(--tp-grey-1);
 }
-form input:-ms-input-placeholder {
+.contactForm form input:-ms-input-placeholder {
     color: var(--tp-grey-1);
 }
-form button {
+.contactForm form button {
     position: absolute;
     top: 50%;
     right: 30px;
@@ -187,10 +188,10 @@ form button {
     color: black;
     border-radius: 8px;
 }
-form button:hover {
+.contactForm form button:hover {
     color: var(--tp-theme-mandalay);
 }
-form textarea {
+.contactForm form textarea {
     border: 2px solid var(--tp-border-8);
     border-radius: 8px;
     width: 100%;
@@ -198,15 +199,15 @@ form textarea {
     padding-left: 10px;
     padding-right: 10px;
 }
-form textarea::-webkit-input-placeholder {
+.contactForm form textarea::-webkit-input-placeholder {
+    color: vavr(--tp-grey-1);
+}
+.contactForm form textarea:-moz-placeholder {
     color: var(--tp-grey-1);
 }
-form textarea:-moz-placeholder {
+.contactForm form textarea::-moz-placeholder {
     color: var(--tp-grey-1);
 }
-form textarea::-moz-placeholder {
-    color: var(--tp-grey-1);
-}
-form textarea:-ms-input-placeholder {
+.contactForm form textarea:-ms-input-placeholder {
     color: var(--tp-grey-1);
 }

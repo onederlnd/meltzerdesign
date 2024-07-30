@@ -410,7 +410,6 @@
           </div>
         </div>
       </div>
-      </section>
     </main>
     <footer class="mt-5">
       <!-- place footer here -->
@@ -486,7 +485,7 @@
           </div>
           <div class="modal-body form-group col-12 px-5">
             <p>Ready to learn more? Let me know what you're looking for!</p>
-            <form action="./assets/mail.php" method="post">
+            <form action="./assets/mail.php" method="POST" id="contactForm">
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="input-item">
@@ -509,7 +508,6 @@
                     />
                   </div>
                 </div>
-                </form>
                 <div class="col-lg-12">
                   <div class="input-item">
                     <input
@@ -547,7 +545,7 @@
                 >
                   Close
                 </button>
-                <button type="submit" name="submit" class="btn btn-primary">
+                <button type="submit" name="submit" class="btn btn-primary" style="position: relative;">
                   Submit
                 </button>
               </div>
