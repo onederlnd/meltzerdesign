@@ -1,18 +1,16 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "rchristenhusz@brandnutmarketing.com"; // this is your Email address
+    $to = "marla@meltzerdesign.com"; // this is your Email address
     $email = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
-    $business_type = $_POST['business_type'];
     $company = $_POST['company'];
-    $subject = "Form submission";
+    $subject = "Web Form Submission - MeltzerDesign.com";
     // $subject2 = "Copy of your form submission";
     $message =  "First Name: ". $first_name . 
                 "\nLast Name: " . $last_name . 
                 "\nCompany: " . $company .
                 "\nEmail Address: " . $email . 
-                "\nBusiness Type: " . $business_type . 
                 "\nMessage:\n" . $_POST['message'];
     // $message2 = "Here is a copy of your message " . $first_name . ",\n\n" . $business_type . "\n\n" . $_POST['message'];
 
