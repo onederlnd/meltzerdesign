@@ -4,12 +4,14 @@ if(isset($_POST['submit'])){
     $email = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
+    $telephone = $_POST['telephone'];
     $company = $_POST['company'];
     $subject = "Web Form Submission - MeltzerDesign.com";
     // $subject2 = "Copy of your form submission";
     $message =  "First Name: ". $first_name . 
                 "\nLast Name: " . $last_name . 
                 "\nCompany: " . $company .
+                "\nTelephone: " . $telephone . 
                 "\nEmail Address: " . $email . 
                 "\nMessage:\n" . $_POST['message'];
     // $message2 = "Here is a copy of your message " . $first_name . ",\n\n" . $business_type . "\n\n" . $_POST['message'];

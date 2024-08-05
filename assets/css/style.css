@@ -113,14 +113,13 @@ footer a {
     line-height: 1;
     font-size: 34px;
     font-family: var(--tp-ff-heading);
-    font-weight: 700 !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--tp-common-primary);
     font-size: 40px;
     font-family: var(--tp-ff-heading);
     display: block;
-    padding-left: 30px;
+    padding-left: 60px;
 
     &:hover {
         color: var(--tp-theme-nav-text-dark-hover);
@@ -142,9 +141,6 @@ footer a {
     background-color:rgb(176, 62, 62);
     color: rgb(255,255,255);
   }
-  &:active {
-
-  }
 }
 
 .newsletter-signup button {
@@ -155,7 +151,7 @@ footer a {
     }
 }
 
-form input {
+#contactForm form input {
     height: 45px;
     padding-left: 10px;
     padding-right: 10px;
