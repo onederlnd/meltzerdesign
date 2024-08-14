@@ -1,0 +1,6 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_quicken-loans-recruiting-ad_content/title.xml" status="unique"/>
+  <item type="menu" name="print-menu" file="sg_print-design_content/printmenu.xml" divid="printmenu" status="shared"/>
+  <item type="text" name="Featured in Crain’s Detroit-text" file="sg_quicken-loans-recruiting-ad_content/featuredincrainsdetroitte.htm" divid="featuredincrainsdetroitte" status="unique"/>
+</entries>

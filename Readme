@@ -1,21 +1,8 @@
 Task List
-
-1. Fix/update contact form
-    - ~~Submission not working~~
-    - ~~Update mail.php with Marla's information~~
-    - ~~Thank You page~~
-    - ~~Fix CSS for submission form~~
-2. Update all graphics
-    - ~~Featured "See More" image~~
-    - ~~About Me graphic~~
-    - Implement all portfolio page graphics (note: waiting on Marla to provide)
-3. Newsletter
+j- Newsletter
     - Update submission form in footer (note: need info for mailchimp to know where to push this to)
 4. Implementations
     - JSON for all graphics and content
 
-Questions
-
-1. Does Marla currently use GA or any analytics services?
-    - GA4
-    - Clarity
+5. Show More/Show Less for subpage paragraphs
+    - (MOBILE ONLY) Add Show More/Less for all paragraphs to minimize the main length on the site 
